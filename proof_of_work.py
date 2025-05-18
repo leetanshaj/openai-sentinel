@@ -7,7 +7,7 @@ MAX_ITERATION = 500000
 
 def get_parse_time():
     now = datetime.now(timezone(timedelta(hours=-5)))
-    return now.strftime("%a %b %d %Y %H:%M:%") + " GMT-0500 (Eastern Standard Time)"
+    return now.strftime("%a %b %d %Y %H:%M:%S") + " GMT-0500 (Eastern Standard Time)"
 
 
 
